@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+	color: #666666;
 }
 
 body {
@@ -71,6 +72,38 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
+}
+.panel-default{
+	min-height:  176px;
+}
+.panel-default>.panel-heading{
+	background-color: #fff;
+}
+.btn-default {
+    position: absolute;
+    bottom: 30px;
+	width: 84%;
+}
+nav.navbar{
+	background-color: #EF7B16;
+}
+.navbar-inverse{
+	border-color: #eee;
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+#bs-example-navbar-collapse-1 > ul > li > a{
+	color: #fff;
+}
+#bs-example-navbar-collapse-1 > ul > li > a:hover{
+	background-color: #168aef;
+}
+.panel-heading i{
+	color: #EF7B16;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #3ABCB2;
 }
 
 /* Responsive Styles */
